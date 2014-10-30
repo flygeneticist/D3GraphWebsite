@@ -64,7 +64,7 @@ app.get('/graphs', function(request, response, next) {
     response.render('graphs');
 });
 app.get('/graphs/SouthAmerica', function(request, response, next) {
-    response.render('graphs/SA_MultiSeriesLine');
+    response.render('SA_MultiSeriesLine');
 });
 
 
