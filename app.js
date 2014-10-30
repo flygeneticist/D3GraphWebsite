@@ -60,6 +60,12 @@ app.set('view engine', 'handlebars');
 app.get('/', function(request, response, next) {
     response.render('index');
 });
+app.get('/graphs', function(request, response, next) {
+    response.render('graphs');
+});
+app.get('/graphs/SouthAmerica', function(request, response, next) {
+    response.render('graphs/SA_MultiSeriesLine');
+});
 
 
 /*
