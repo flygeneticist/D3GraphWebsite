@@ -3,6 +3,21 @@ body {
   font: 9px sans-serif;
   color: #121401;
 }
+p {
+  font-size: 14px;
+}
+footer {
+  margin-top: 40px;
+}
+li {
+  font-size: 16px;
+}
+.prj-odd {
+  background: #C5D8EC;
+}
+.prj-even {
+  background: #E0E2E4;
+}
 .axis path,
 .axis line {
   fill: none;
